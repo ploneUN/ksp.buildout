@@ -17,3 +17,7 @@ haproxy-user = ${site:effective-user}
 haproxy-group = haproxy
 
 zodb-cache-size=5000
+
+worker-host = 127.0.0.1
+worker-port = 8090
+
